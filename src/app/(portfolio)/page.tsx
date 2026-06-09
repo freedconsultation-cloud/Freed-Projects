@@ -59,7 +59,7 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
-    name: "Google Trend Game",
+    name: "Wikipedia Trends",
     description:
       "Higher or Lower game built around today's trending topics. Two Wikipedia articles go head-to-head — guess which had more views. Correct guesses keep your streak alive; one wrong answer ends the run. Pulls live data daily from the Wikimedia API with real view counts and article thumbnails.",
     stack: ["TypeScript", "Next.js", "Tailwind", "Wikimedia API"],
