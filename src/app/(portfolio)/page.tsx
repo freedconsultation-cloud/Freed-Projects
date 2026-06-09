@@ -264,7 +264,7 @@ export default function PortfolioPage() {
         <span className="font-bold font-mono text-sm" style={{ color: "var(--accent)" }}>
           {"</>"}
         </span>
-        <div />
+<div />
       </nav>
 
       <div className="max-w-5xl mx-auto px-8 pt-8 pb-12">
