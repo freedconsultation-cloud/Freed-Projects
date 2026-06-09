@@ -26,6 +26,17 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
+    name: "Document Summarizer",
+    description:
+      "Upload a PDF, DOC, or DOCX and get an AI-generated summary streamed back instantly.",
+    stack: ["TypeScript", "Next.js", "Claude AI"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Document-Summarizer",
+    liveUrl: "https://document-summarizer-xi.vercel.app",
+    status: "live",
+    category: "AI/ML",
+  },
+  {
     name: "UI Generator",
     description:
       "A tool for generating modern UI components based on design specifications.",
