@@ -59,6 +59,17 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
+    name: "Trend Game",
+    description:
+      "Higher or Lower game using Wikipedia's daily top articles. Guess which trending topic had more views yesterday — correct guesses extend your streak, wrong ones end the game. Features real view counts, article thumbnails, and a personal best tracker.",
+    stack: ["TypeScript", "Next.js", "Wikimedia API"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Trend-Game",
+    liveUrl: "https://trend-game-freed.vercel.app",
+    status: "live",
+    category: "Web",
+  },
+  {
     name: "TaskFlow",
     description:
       "Kanban-style project management app with drag-and-drop boards, real-time collaboration via WebSockets, and a REST API backend.",
