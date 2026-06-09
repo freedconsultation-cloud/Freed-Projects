@@ -32,6 +32,7 @@ const PROJECTS: Project[] = [
     stack: ["TypeScript", "JavaScript", "CSS"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/UI-Generator",
+    liveUrl: "https://ui-generator-lilac.vercel.app",
     status: "in-progress",
     category: "Web",
   },
