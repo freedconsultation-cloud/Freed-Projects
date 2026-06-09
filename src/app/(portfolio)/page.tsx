@@ -59,10 +59,10 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
-    name: "Trend Game",
+    name: "Google Trend Game",
     description:
-      "Higher or Lower game using Wikipedia's daily top articles. Guess which trending topic had more views yesterday — correct guesses extend your streak, wrong ones end the game. Features real view counts, article thumbnails, and a personal best tracker.",
-    stack: ["TypeScript", "Next.js", "Wikimedia API"],
+      "Higher or Lower game built around today's trending topics. Two Wikipedia articles go head-to-head — guess which had more views. Correct guesses keep your streak alive; one wrong answer ends the run. Pulls live data daily from the Wikimedia API with real view counts and article thumbnails.",
+    stack: ["TypeScript", "Next.js", "Tailwind", "Wikimedia API"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Trend-Game",
     liveUrl: "https://trend-game-freed.vercel.app",
