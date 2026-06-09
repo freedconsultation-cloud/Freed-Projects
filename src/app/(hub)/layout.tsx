@@ -3,10 +3,10 @@ import Sidebar from "@/app/_components/Sidebar";
 
 export default function HubLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div style={{ display: "flex", height: "100vh", overflow: "hidden" }}>
+    <div className="flex flex-col md:flex-row h-screen overflow-hidden">
       <RepoProvider>
         <Sidebar />
-        <main style={{ flex: 1, overflow: "auto" }}>{children}</main>
+        <main className="flex-1 overflow-auto">{children}</main>
       </RepoProvider>
     </div>
   );

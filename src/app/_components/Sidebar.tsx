@@ -46,25 +46,29 @@ export default function Sidebar() {
   const router = useRouter();
   const { repo, setRepo } = useRepo();
   const [inputValue, setInputValue] = useState("");
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     setInputValue(repo);
   }, [repo]);
+
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
     const parsed = parseRepoInput(inputValue);
     if (!parsed) return;
     setRepo(parsed);
+    setOpen(false);
     if (pathname.startsWith("/hub") || pathname.startsWith("/tools")) {
       router.push("/tools/overview");
     }
   }
 
-  return (
-    <aside className="w-64 shrink-0 flex flex-col h-full overflow-y-auto"
-      style={{ background: "var(--surface)", borderRight: "1px solid var(--border)" }}>
-
+  const sidebarContent = (
+    <>
       {/* Back to portfolio */}
       <div className="px-3 pt-3">
         <Link
@@ -105,12 +109,8 @@ export default function Sidebar() {
               border: "1px solid var(--border)",
               color: "var(--foreground)",
             }}
-            onFocus={(e) =>
-              (e.currentTarget.style.borderColor = "var(--accent)")
-            }
-            onBlur={(e) =>
-              (e.currentTarget.style.borderColor = "var(--border)")
-            }
+            onFocus={(e) => (e.currentTarget.style.borderColor = "var(--accent)")}
+            onBlur={(e) => (e.currentTarget.style.borderColor = "var(--border)")}
           />
           <button
             type="submit"
@@ -175,6 +175,62 @@ export default function Sidebar() {
       <div className="p-3 text-xs" style={{ borderTop: "1px solid var(--border)", color: "var(--text-muted)" }}>
         Code Review Hub · v0.1.0
       </div>
-    </aside>
+    </>
+  );
+
+  return (
+    <>
+      {/* Mobile top bar */}
+      <div
+        className="md:hidden flex items-center justify-between px-4 py-3 shrink-0"
+        style={{ background: "var(--surface)", borderBottom: "1px solid var(--border)" }}
+      >
+        <Link href="/hub" className="flex items-center gap-2">
+          <span className="text-lg font-mono" style={{ color: "var(--accent)" }}>{"</>"}</span>
+          <span className="font-bold text-sm" style={{ color: "var(--foreground)" }}>Code Review Hub</span>
+        </Link>
+        <button
+          onClick={() => setOpen((o) => !o)}
+          className="p-1.5 rounded transition-opacity hover:opacity-70"
+          style={{ color: "var(--foreground)" }}
+          aria-label="Toggle menu"
+        >
+          {open ? (
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2">
+              <line x1="2" y1="2" x2="16" y2="16" /><line x1="16" y1="2" x2="2" y2="16" />
+            </svg>
+          ) : (
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2">
+              <line x1="2" y1="4" x2="16" y2="4" /><line x1="2" y1="9" x2="16" y2="9" /><line x1="2" y1="14" x2="16" y2="14" />
+            </svg>
+          )}
+        </button>
+      </div>
+
+      {/* Mobile overlay */}
+      {open && (
+        <div
+          className="md:hidden fixed inset-0 z-40"
+          style={{ background: "rgba(0,0,0,0.5)" }}
+          onClick={() => setOpen(false)}
+        />
+      )}
+
+      {/* Mobile drawer */}
+      <aside
+        className={`md:hidden fixed top-0 left-0 z-50 w-72 h-full flex flex-col overflow-y-auto transition-transform duration-200 ${open ? "translate-x-0" : "-translate-x-full"}`}
+        style={{ background: "var(--surface)", borderRight: "1px solid var(--border)" }}
+      >
+        {sidebarContent}
+      </aside>
+
+      {/* Desktop sidebar */}
+      <aside
+        className="hidden md:flex w-64 shrink-0 flex-col h-full overflow-y-auto"
+        style={{ background: "var(--surface)", borderRight: "1px solid var(--border)" }}
+      >
+        {sidebarContent}
+      </aside>
+    </>
   );
 }
