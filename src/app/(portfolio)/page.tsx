@@ -40,7 +40,7 @@ const PROJECTS: Project[] = [
     name: "UI Generator",
     description:
       "A tool for generating modern UI components based on design specifications.",
-    stack: ["TypeScript", "JavaScript", "CSS"],
+    stack: ["TypeScript", "Next.js", "Tailwind", "Prisma", "Postgres"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/UI-Generator",
     liveUrl: "https://ui-generator-lilac.vercel.app",
