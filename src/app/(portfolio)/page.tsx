@@ -28,7 +28,7 @@ const PROJECTS: Project[] = [
   {
     name: "Document Summarizer",
     description:
-      "Upload a PDF, DOC, or DOCX and get an AI-generated summary streamed back instantly.",
+      "Drag and drop any PDF, DOC, or DOCX file and receive a concise AI-generated summary in seconds. Powered by Claude, with streaming output so results appear as they're generated.",
     stack: ["TypeScript", "Next.js", "Claude AI"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Document-Summarizer",
