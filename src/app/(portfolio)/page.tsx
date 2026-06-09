@@ -48,6 +48,17 @@ const PROJECTS: Project[] = [
     category: "Web",
   },
   {
+    name: "Weather App",
+    description:
+      "Ask anything about the forecast in plain English. Claude routes your question to the right data — current conditions, hourly rain chances, or a 5-day outlook — powered by the Open-Meteo API with no API key required. Auto-detects your location via the browser.",
+    stack: ["TypeScript", "Next.js", "Claude AI", "Open-Meteo"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Weather-App",
+    liveUrl: "https://weather-app-virid-two-15.vercel.app",
+    status: "live",
+    category: "AI/ML",
+  },
+  {
     name: "TaskFlow",
     description:
       "Kanban-style project management app with drag-and-drop boards, real-time collaboration via WebSockets, and a REST API backend.",
