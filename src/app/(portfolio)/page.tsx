@@ -54,7 +54,7 @@ const PROJECTS: Project[] = [
     stack: ["TypeScript", "Next.js", "Claude AI", "Open-Meteo"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Weather-App",
-    liveUrl: "https://weather-app-virid-two-15.vercel.app",
+    liveUrl: "https://weather-freed.vercel.app",
     status: "live",
     category: "AI/ML",
   },
