@@ -26,13 +26,14 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
-    name: "AutoTrader",
+    name: "UI Generator",
     description:
-      "Algorithmic trading bot that monitors real-time stock data, backtests strategies against historical data, and executes paper trades via a brokerage API.",
-    stack: ["Python", "Pandas", "NumPy"],
-    primaryLang: "Python",
+      "A tool for generating modern UI components based on design specifications.",
+    stack: ["TypeScript", "JavaScript", "CSS"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/UI-Generator",
     status: "in-progress",
-    category: "Data",
+    category: "Web",
   },
   {
     name: "TaskFlow",
