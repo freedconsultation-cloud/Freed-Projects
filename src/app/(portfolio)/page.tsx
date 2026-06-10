@@ -48,6 +48,17 @@ const PROJECTS: Project[] = [
     category: "Web",
   },
   {
+    name: "Image Resizer",
+    description:
+      "Browser-based image resizer with no uploads or servers required. Pick from popular presets — Instagram, YouTube, Twitter, 4K, and more — or enter custom dimensions. Lock aspect ratio, choose output format (JPG, PNG, WebP), adjust quality, and see a before/after comparison before downloading.",
+    stack: ["TypeScript", "Next.js", "Canvas API"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Image-Resizer",
+    liveUrl: "https://image-resizer-freed.vercel.app",
+    status: "live",
+    category: "Tools",
+  },
+  {
     name: "Weather App",
     description:
       "Ask anything about the forecast in plain English. Claude routes your question to the right data — current conditions, hourly rain chances, or a 5-day outlook — powered by the Open-Meteo API with no API key required. Auto-detects your location via the browser.",
