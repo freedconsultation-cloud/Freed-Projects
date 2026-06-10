@@ -65,7 +65,7 @@ const PROJECTS: Project[] = [
     stack: ["TypeScript", "Next.js", "Tailwind", "Wikimedia API"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Trend-Game",
-    liveUrl: "https://trend-game-freed.vercel.app",
+    liveUrl: "https://wikipedia-trends.vercel.app",
     status: "live",
     category: "Web",
   },
