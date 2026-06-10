@@ -59,6 +59,16 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
+    name: "Screenshot Markup",
+    description:
+      "Desktop app for capturing and annotating screenshots. Press a global shortcut to select any screen region, then annotate with arrows, rectangles, circles, freehand pen, text, highlight, and redact tools. Full undo/redo history, color picker, stroke width control, and one-click export to clipboard, PNG, or JPG.",
+    stack: ["JavaScript", "Electron", "React", "Konva"],
+    primaryLang: "JavaScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Screenshot-Markup",
+    status: "live",
+    category: "Tools",
+  },
+  {
     name: "URL Shortener",
     description:
       "Full-stack link shortener with custom slugs, expiry dates, click analytics, and QR code generation. Tracks clicks by country via IP geolocation, plots a daily click chart, and enforces rate limiting. Built with Express, Prisma, and PostgreSQL on Railway.",
