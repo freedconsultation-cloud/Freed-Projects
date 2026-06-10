@@ -59,6 +59,17 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
+    name: "URL Shortener",
+    description:
+      "Full-stack link shortener with custom slugs, expiry dates, click analytics, and QR code generation. Tracks clicks by country via IP geolocation, plots a daily click chart, and enforces rate limiting. Built with Express, Prisma, and PostgreSQL on Railway.",
+    stack: ["JavaScript", "React", "Express", "PostgreSQL", "Prisma", "Recharts"],
+    primaryLang: "JavaScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/URL-Shortener",
+    liveUrl: "https://url-shortener-freed.up.railway.app",
+    status: "live",
+    category: "API",
+  },
+  {
     name: "Weather App",
     description:
       "Ask anything about the forecast in plain English. Claude routes your question to the right data — current conditions, hourly rain chances, or a 5-day outlook — powered by the Open-Meteo API with no API key required. Auto-detects your location via the browser.",
