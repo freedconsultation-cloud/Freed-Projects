@@ -61,7 +61,7 @@ const PROJECTS: Project[] = [
   {
     name: "Screenshot Markup",
     description:
-      "Desktop app for capturing and annotating screenshots. Press a global shortcut to select any screen region, then annotate with arrows, rectangles, circles, freehand pen, text, highlight, and redact tools. Full undo/redo history, color picker, stroke width control, and one-click export to clipboard, PNG, or JPG.",
+      "Desktop-only app for capturing and annotating screenshots. Press a global shortcut to select any screen region, then annotate with arrows, rectangles, circles, freehand pen, text, highlight, and redact tools. Full undo/redo history, color picker, stroke width control, and one-click export to clipboard, PNG, or JPG. Requires desktop — no mobile support.",
     stack: ["JavaScript", "Electron", "React", "Konva"],
     primaryLang: "JavaScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Screenshot-Markup",
