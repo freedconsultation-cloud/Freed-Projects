@@ -61,7 +61,7 @@ const PROJECTS: Project[] = [
   {
     name: "Wikipedia Trends",
     description:
-      "Higher or Lower game built around today's trending topics. Two Wikipedia articles go head-to-head — guess which had more views. Correct guesses keep your streak alive; one wrong answer ends the run. Pulls live data daily from the Wikimedia API with real view counts and article thumbnails.",
+      "A daily Higher or Lower game powered by real Wikipedia data. Two trending articles face off — guess which one racked up more views yesterday. String together correct guesses to build your streak; one wrong call ends it. Refreshes every day with new topics pulled live from the Wikimedia API.",
     stack: ["TypeScript", "Next.js", "Tailwind", "Wikimedia API"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Trend-Game",
