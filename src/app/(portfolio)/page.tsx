@@ -32,7 +32,7 @@ const PROJECTS: Project[] = [
     stack: ["TypeScript", "Next.js", "Claude AI", "SheetJS"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Document-Summarizer",
-    liveUrl: "https://document-summarizer-xi.vercel.app",
+    liveUrl: "https://document-summary-freed.vercel.app",
     status: "live",
     category: "AI/ML",
   },
