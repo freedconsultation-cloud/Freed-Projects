@@ -31,7 +31,7 @@ const PROJECTS: Project[] = [
       "Drop any document — PDF, DOCX, PPTX, XLSX, TXT, CSV, or Markdown — and get an instant AI-generated summary. Then ask follow-up questions and get analyzed responses, all streamed live via Claude.",
     stack: ["TypeScript", "Next.js", "Claude AI", "SheetJS"],
     primaryLang: "TypeScript",
-    githubUrl: "https://github.com/freedconsultation-cloud/Document-Summarizer",
+    githubUrl: "https://github.com/freedconsultation-cloud/Document-Summary",
     liveUrl: "https://document-summary-freed.vercel.app",
     status: "live",
     category: "AI/ML",
