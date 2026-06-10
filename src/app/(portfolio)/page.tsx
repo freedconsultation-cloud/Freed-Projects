@@ -65,7 +65,7 @@ const PROJECTS: Project[] = [
     stack: ["JavaScript", "React", "Express", "PostgreSQL", "Prisma", "Recharts"],
     primaryLang: "JavaScript",
     githubUrl: "https://github.com/freedconsultation-cloud/URL-Shortener",
-    liveUrl: "https://url-shortener-freed.up.railway.app",
+    liveUrl: "https://url-shortener-freed.onrender.com",
     status: "live",
     category: "API",
   },
