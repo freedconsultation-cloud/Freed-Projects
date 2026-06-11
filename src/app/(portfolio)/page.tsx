@@ -69,6 +69,16 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
+    name: "Real-Time Sports Scoreboard",
+    description:
+      "Live sports scores for NFL, NBA, MLB, NHL, and Premier League — updated every 30 seconds via Socket.IO. Key events (scores, final whistles) push toast notifications instantly. Sign in with Google to save favourite teams and filter the board to games that matter to you. Includes play-by-play commentary and a per-game score chart. Desktop only — no mobile support.",
+    stack: ["JavaScript", "React", "Node.js", "Socket.IO", "Firebase", "Recharts"],
+    primaryLang: "JavaScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Real-Time-Sports-Scoreboard",
+    status: "in-progress",
+    category: "Web",
+  },
+  {
     name: "URL Shortener",
     description:
       "Full-stack link shortener with custom slugs, expiry dates, click analytics, and QR code generation. Tracks clicks by country via IP geolocation, plots a daily click chart, and enforces rate limiting. Built with Express, Prisma, and PostgreSQL on Railway.",
