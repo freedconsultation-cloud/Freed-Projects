@@ -75,7 +75,8 @@ const PROJECTS: Project[] = [
     stack: ["JavaScript", "React", "Node.js", "Socket.IO", "Firebase", "Recharts"],
     primaryLang: "JavaScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Real-Time-Sports-Scoreboard",
-    status: "in-progress",
+    liveUrl: "https://sports-scoreboard-966b.onrender.com",
+    status: "live",
     category: "Web",
   },
   {
