@@ -71,7 +71,7 @@ const PROJECTS: Project[] = [
   {
     name: "Real-Time Sports Scoreboard",
     description:
-      "Live sports scores for NFL, NBA, MLB, NHL, and Premier League — updated every 30 seconds via Socket.IO. Key events (scores, final whistles) push toast notifications instantly. Sign in with Google to save favourite teams and filter the board to games that matter to you. Includes play-by-play commentary and a per-game score chart. Desktop only — no mobile support.",
+      "Live sports scores for NFL, NBA, MLB, NHL, Premier League, FIFA World Cup, college football, and college basketball (men's and women's) — updated every 30 seconds via Socket.IO. Key events push toast notifications instantly. Sign in with Google to save favorite teams and filter to games that matter to you. Includes play-by-play commentary and a per-game score chart. Desktop only — no mobile support.",
     stack: ["JavaScript", "React", "Node.js", "Socket.IO", "Firebase", "Recharts"],
     primaryLang: "JavaScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Real-Time-Sports-Scoreboard",
