@@ -71,8 +71,8 @@ const PROJECTS: Project[] = [
   {
     name: "Real-Time Sports Scoreboard",
     description:
-      "Live scores for NFL, NBA, MLB, NHL, Premier League, FIFA World Cup, CFB, NCAAB, and NCAAW — updated every 30 seconds via Socket.IO. Click any game for a full box score, quarter-by-quarter line score, play-by-play commentary, and betting odds (spread, O/U, moneyline). Click any team for their division standings, season schedule, and last-10 record. Broadcast networks shown on every card. Sign in with Google to favorite teams, filter to games that matter, and enable browser push notifications for score alerts.",
-    stack: ["JavaScript", "React", "Node.js", "Socket.IO", "Firebase", "Recharts"],
+      "Live scores for NFL, NBA, MLB, NHL, Premier League, FIFA World Cup, CFB, NCAAB, and NCAAW — updated every 30 seconds via Socket.IO. Navigate any date to browse past or upcoming schedules. Click any game for a box score, line score, win probability, H2H history, injury report, news articles, and betting odds. Click any team for standings, season schedule, and full roster. Search and compare any two players side-by-side across leagues. Season leaders widget shows top performers per stat category. Sign in with Google to favorite teams and receive browser push notifications for score alerts.",
+    stack: ["JavaScript", "React", "Node.js", "Socket.IO", "Firebase", "ESPN API"],
     primaryLang: "JavaScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Real-Time-Sports-Scoreboard",
     liveUrl: "https://sports-scoreboard-966b.onrender.com",
