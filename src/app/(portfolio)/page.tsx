@@ -112,60 +112,6 @@ const PROJECTS: Project[] = [
     status: "live",
     category: "Web",
   },
-  {
-    name: "TaskFlow",
-    description:
-      "Kanban-style project management app with drag-and-drop boards, real-time collaboration via WebSockets, and a REST API backend.",
-    stack: ["React", "Node.js", "PostgreSQL"],
-    primaryLang: "JavaScript",
-    status: "live",
-    category: "Web",
-  },
-  {
-    name: "DataPulse",
-    description:
-      "Interactive analytics dashboard that ingests CSV or database exports and renders time-series charts, cohort breakdowns, and anomaly alerts.",
-    stack: ["Python", "FastAPI", "Plotly"],
-    primaryLang: "Python",
-    status: "live",
-    category: "Data",
-  },
-  {
-    name: "SecureVault API",
-    description:
-      "Zero-knowledge password manager backend built with Spring Boot. AES-256 encrypted storage, OAuth2 login, and a CLI client for terminal power users.",
-    stack: ["Java", "Spring Boot", "PostgreSQL"],
-    primaryLang: "Java",
-    status: "archived",
-    category: "API",
-  },
-  {
-    name: "MLClassifier",
-    description:
-      "Image classification pipeline using a fine-tuned ResNet model. Includes a training script, evaluation metrics dashboard, and a lightweight Flask inference API.",
-    stack: ["Python", "PyTorch", "Flask"],
-    primaryLang: "Python",
-    status: "live",
-    category: "AI/ML",
-  },
-  {
-    name: "QuickQuery",
-    description:
-      "Browser-based SQL playground that connects to local or remote databases, renders results as editable grids, and exports to CSV or JSON in one click.",
-    stack: ["TypeScript", "React", "SQLite"],
-    primaryLang: "TypeScript",
-    status: "in-progress",
-    category: "Tools",
-  },
-  {
-    name: "DevMetrics",
-    description:
-      "Personal developer dashboard that aggregates GitHub activity, pull request cycle times, and commit streaks into a single daily digest.",
-    stack: ["JavaScript", "Express", "Chart.js"],
-    primaryLang: "JavaScript",
-    status: "archived",
-    category: "Web",
-  },
 ];
 
 const LANG_COLORS: Record<string, string> = {
