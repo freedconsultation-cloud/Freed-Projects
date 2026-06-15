@@ -102,6 +102,17 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
+    name: "Image Enhancer",
+    description:
+      "Drop any photo — PNG, JPG, JPEG, or WEBP — and get an automatically enhanced version in seconds. Runs a four-step pipeline entirely in the browser: auto levels (histogram clipping), S-curve contrast boost, vibrance lift, and unsharp mask sharpening. Drag the before/after slider to compare, then download as PNG.",
+    stack: ["TypeScript", "Next.js", "Canvas API"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Image-Enhancer",
+    liveUrl: "https://image-enhancer-alpha-red.vercel.app",
+    status: "live",
+    category: "Tools",
+  },
+  {
     name: "Wikipedia Trends",
     description:
       "A daily Higher or Lower game powered by real Wikipedia data. Two trending articles face off — guess which one racked up more views yesterday. String together correct guesses to build your streak; one wrong call ends it. Refreshes every day with new topics pulled live from the Wikimedia API.",
