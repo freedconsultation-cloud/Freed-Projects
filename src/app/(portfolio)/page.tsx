@@ -102,6 +102,17 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
+    name: "Freed-Chat",
+    description:
+      "Streaming AI chat powered by Claude. Switch between Sonnet, Haiku, and Opus mid-session. Conversations auto-title from your first message and persist in localStorage. Responses render with full markdown — headers, lists, tables, inline code, and fenced code blocks with language labels and a copy button. Sidebar collapses for distraction-free focus.",
+    stack: ["TypeScript", "Next.js", "Claude AI", "Anthropic SDK"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Freed-Chat",
+    liveUrl: "https://freed-chat.vercel.app",
+    status: "live",
+    category: "AI/ML",
+  },
+  {
     name: "Color Palette Generator",
     description:
       "Two modes: upload any image and extract its dominant colors via Canvas pixel quantization, or pick a seed color and generate a harmonious scheme — complementary, triadic, analogous, split-complementary, tetradic, or monochromatic. Each palette shows hex, RGB, and HSL values with click-to-copy swatches. Export as CSS custom properties, Tailwind config, SCSS variables, or a plain hex list.",
