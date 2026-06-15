@@ -102,6 +102,17 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
+    name: "Color Palette Generator",
+    description:
+      "Two modes: upload any image and extract its dominant colors via Canvas pixel quantization, or pick a seed color and generate a harmonious scheme — complementary, triadic, analogous, split-complementary, tetradic, or monochromatic. Each palette shows hex, RGB, and HSL values with click-to-copy swatches. Export as CSS custom properties, Tailwind config, SCSS variables, or a plain hex list.",
+    stack: ["TypeScript", "Next.js", "Canvas API"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Color-Palette-Generator",
+    liveUrl: "https://color-palette-pearl-ten.vercel.app",
+    status: "live",
+    category: "Tools",
+  },
+  {
     name: "QR Code Studio",
     description:
       "Generate QR codes from any URL, text, phone number, or email — with size options and instant preview. Scan QR codes using your device camera (works on iOS and Android via jsQR). Every generated or scanned code can be labeled and saved to a persistent local history with copy, download, and filter by type.",
