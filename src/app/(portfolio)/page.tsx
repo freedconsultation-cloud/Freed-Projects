@@ -137,7 +137,7 @@ const PROJECTS: Project[] = [
   {
     name: "Freed CRM",
     description:
-      "Full-stack CRM with contacts, a drag-and-drop deal pipeline (Lead → Qualified → Proposal → Negotiation → Won/Lost), and an activity log (calls, emails, meetings, notes). Dashboard shows pipeline value, won revenue, and stage breakdown at a glance. Contact detail pages include AI-powered tools: draft a follow-up email, summarize relationship history, or get a next-step recommendation — all powered by Claude.",
+      "Full-stack CRM built for a Smartsheet consulting firm. Contacts, drag-and-drop pipeline (Lead → Won/Lost), activity log, and task tracker. Service package catalog auto-fills deal value. AI Proposal Generator writes full client proposals via Claude. Post-sale milestone tracker (Kickoff → Live) activates on Won deals. Win/Loss reason capture with stage history timeline. Revenue reports with monthly bar charts, win rate, and package performance. Company Accounts view groups contacts and deals by org. Email Templates with {{placeholder}} substitution and AI personalization. Public client intake form creates contacts and leads automatically.",
     stack: ["TypeScript", "Next.js", "Claude AI", "Prisma", "PostgreSQL", "Neon"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Freed-CRM",
