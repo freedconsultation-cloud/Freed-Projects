@@ -102,6 +102,17 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
+    name: "Expense Tracker",
+    description:
+      "Full-stack expense and income tracker backed by Neon PostgreSQL. Dashboard shows total income, expenses, net balance, a spending-by-category donut chart, and a 6-month income vs. expenses bar chart. Add transactions manually or upload a bank statement PDF — Claude AI extracts and categorizes every transaction automatically for one-click import.",
+    stack: ["TypeScript", "Next.js", "Prisma", "PostgreSQL", "Recharts", "Claude AI"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Expense-Tracker",
+    liveUrl: "https://expense-tracker-mu-ten-81.vercel.app",
+    status: "live",
+    category: "Data",
+  },
+  {
     name: "Resume Builder",
     description:
       "Fill in your experience, education, skills, and projects in a clean editor — a live preview updates in real time. Exports a polished, ATS-friendly PDF via the browser's native print engine. Fully client-side with localStorage persistence. Mobile responsive with Edit / Preview tab switching on small screens.",
