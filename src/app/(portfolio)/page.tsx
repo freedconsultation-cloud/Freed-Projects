@@ -135,6 +135,17 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
+    name: "Freed CMS",
+    description:
+      "Build, configure, and deploy custom AI assistants powered by Claude. Each assistant has its own system prompt, knowledge base, model choice, and starter prompts. All conversations are persisted to Neon PostgreSQL. Create a customer support bot, a legal research assistant, a brand voice writer — anything with a single form.",
+    stack: ["TypeScript", "Next.js", "Claude AI", "Prisma", "PostgreSQL", "Neon"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Freed-CMS",
+    liveUrl: "https://freed-cms.vercel.app",
+    status: "live",
+    category: "AI/ML",
+  },
+  {
     name: "Expense Tracker",
     description:
       "Full-stack expense and income tracker backed by Neon PostgreSQL. Annual summary with a 12-month breakdown grid — click any month to drill into its transactions. Add transactions manually or upload a bank statement PDF — Claude AI extracts and categorizes every transaction automatically for one-click import.",
