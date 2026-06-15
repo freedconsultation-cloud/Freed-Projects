@@ -102,6 +102,17 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
+    name: "Resume Builder",
+    description:
+      "Fill in your experience, education, skills, and projects in a clean editor — a live preview updates in real time. Exports a polished, ATS-friendly PDF via the browser's native print engine. Fully client-side with localStorage persistence. Mobile responsive with Edit / Preview tab switching on small screens.",
+    stack: ["TypeScript", "Next.js", "Tailwind"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Resume-Builder",
+    liveUrl: "https://resume-builder-khaki-seven-13.vercel.app",
+    status: "live",
+    category: "Tools",
+  },
+  {
     name: "Image Enhancer",
     description:
       "Drop any photo — PNG, JPG, JPEG, or WEBP — and get an automatically enhanced version in seconds. Runs a four-step pipeline entirely in the browser: auto levels (histogram clipping), S-curve contrast boost, vibrance lift, and unsharp mask sharpening. Drag the before/after slider to compare, then download as PNG.",
