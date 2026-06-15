@@ -135,6 +135,17 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
+    name: "Freed CRM",
+    description:
+      "Full-stack CRM with contacts, a drag-and-drop deal pipeline (Lead → Qualified → Proposal → Negotiation → Won/Lost), and an activity log (calls, emails, meetings, notes). Dashboard shows pipeline value, won revenue, and stage breakdown at a glance. Contact detail pages include AI-powered tools: draft a follow-up email, summarize relationship history, or get a next-step recommendation — all powered by Claude.",
+    stack: ["TypeScript", "Next.js", "Claude AI", "Prisma", "PostgreSQL", "Neon"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Freed-CRM",
+    liveUrl: "https://freed-crm.vercel.app",
+    status: "live",
+    category: "Web",
+  },
+  {
     name: "Freed CMS",
     description:
       "Build, configure, and deploy custom AI assistants powered by Claude. Each assistant has its own system prompt, knowledge base, model choice, and starter prompts. All conversations are persisted to Neon PostgreSQL. Create a customer support bot, a legal research assistant, a brand voice writer — anything with a single form.",
