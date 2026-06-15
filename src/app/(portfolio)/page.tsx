@@ -102,9 +102,20 @@ const PROJECTS: Project[] = [
     category: "AI/ML",
   },
   {
+    name: "QR Code Studio",
+    description:
+      "Generate QR codes from any URL, text, phone number, or email — with size options and instant preview. Scan QR codes using your device camera (works on iOS and Android via jsQR). Every generated or scanned code can be labeled and saved to a persistent local history with copy, download, and filter by type.",
+    stack: ["TypeScript", "Next.js", "jsQR", "Canvas API"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/QR-Code-Studio",
+    liveUrl: "https://qr-code-app-fawn.vercel.app",
+    status: "live",
+    category: "Tools",
+  },
+  {
     name: "Expense Tracker",
     description:
-      "Full-stack expense and income tracker backed by Neon PostgreSQL. Dashboard shows total income, expenses, net balance, a spending-by-category donut chart, and a 6-month income vs. expenses bar chart. Add transactions manually or upload a bank statement PDF — Claude AI extracts and categorizes every transaction automatically for one-click import.",
+      "Full-stack expense and income tracker backed by Neon PostgreSQL. Annual summary with a 12-month breakdown grid — click any month to drill into its transactions. Add transactions manually or upload a bank statement PDF — Claude AI extracts and categorizes every transaction automatically for one-click import.",
     stack: ["TypeScript", "Next.js", "Prisma", "PostgreSQL", "Recharts", "Claude AI"],
     primaryLang: "TypeScript",
     githubUrl: "https://github.com/freedconsultation-cloud/Expense-Tracker",
