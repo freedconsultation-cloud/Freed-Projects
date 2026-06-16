@@ -59,6 +59,17 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
+    name: "Python REPL",
+    description:
+      "Write Python in the browser — no install, no server. Powered by Pyodide (Python compiled to WebAssembly), code runs entirely client-side. Monaco editor with Python syntax highlighting, Shift+Enter to run, 8 built-in example snippets (lists, loops, classes, recursion, and more). Hit Explain and Claude gives a line-by-line breakdown: what each line does, which Python concepts it demonstrates, difficulty level, and two things to try next.",
+    stack: ["TypeScript", "Next.js", "Pyodide", "Monaco Editor", "Claude AI"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/Python-REPL",
+    liveUrl: "https://python-repl.vercel.app",
+    status: "live",
+    category: "AI/ML",
+  },
+  {
     name: "API Tester",
     description:
       "Lightweight local-first HTTP client — a desktop alternative to Postman with no account required. Select method, enter a URL, add headers and params, attach a JSON or raw body, and hit Send. Responses show status, timing, and size with pretty-printed JSON and a copy button. Saves request history and lets you organize saved requests into named collections. Routes all traffic through Electron's net module to bypass CORS entirely.",
