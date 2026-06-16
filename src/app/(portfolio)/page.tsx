@@ -59,6 +59,16 @@ const PROJECTS: Project[] = [
     category: "Tools",
   },
   {
+    name: "API Tester",
+    description:
+      "Lightweight local-first HTTP client — a desktop alternative to Postman with no account required. Select method, enter a URL, add headers and params, attach a JSON or raw body, and hit Send. Responses show status, timing, and size with pretty-printed JSON and a copy button. Saves request history and lets you organize saved requests into named collections. Routes all traffic through Electron's net module to bypass CORS entirely.",
+    stack: ["TypeScript", "Electron", "React", "Vite"],
+    primaryLang: "TypeScript",
+    githubUrl: "https://github.com/freedconsultation-cloud/API-Tester",
+    status: "live",
+    category: "Tools",
+  },
+  {
     name: "Screenshot Markup",
     description:
       "Desktop-only app for capturing and annotating screenshots. Press a global shortcut to select any screen region, then annotate with arrows, rectangles, circles, freehand pen, text, highlight, and redact tools. Full undo/redo history, color picker, stroke width control, and one-click export to clipboard, PNG, or JPG. Requires desktop — no mobile support.",
